@@ -1,11 +1,8 @@
 import "./portfolio.css";
 
-import IMG1 from "../../assets/Educational Website.jpg";
-import IMG2 from "../../assets/RubyCode Blog Project.jpg";
-import IMG3 from "../../assets/Startup Agency Project.jpg";
-import IMG4 from "../../assets/Covid-19 Project.jpg";
-import IMG5 from "../../assets/Jokes Project.jpg";
-import IMG6 from "../../assets/Project4.jpg";
+import IMG1 from "../../assets/movie.png";
+import IMG2 from "../../assets/audio.png";
+import IMG4 from "../../assets/food.png";
 import React from "react";
 
 //Portfolio function
@@ -13,68 +10,37 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Educational Website with React.js",
+      title: "Movies website",
       img: IMG1,
       description:
-        "An educational website is a huge interactive platform to present various information for people.",
-      technologies: "Html | CSS | Javascript | React Js",
-      link: "https://educational-website-reactjs.netlify.app/",
-      github: "https://github.com/Rasif-Taghizada/Educational-Website-ReactJs",
+        "A website that shows movies and actors, the user can search for movies or actors and filter them",
+      technologies: "React Js | Next Js | tailwind css",
+      link: "https://movie-project-team-7-ver1.vercel.app/",
+      github: "https://github.com/Hassan-AbuGareeb/Movies-Website",
     },
     {
       id: 2,
-      title: "Covid-19 Tracking App",
+      title: "Audio file downloader",
       img: IMG4,
       description:
-        "The COVID Tracking Project collects and publishes the most complete testing data available for all areas of the world.",
-      technologies: "React | Redux",
-      link: "https://covid-19-tracker-weld-nu.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Covid-19-Tracking",
+        "A website that enables the user to search for songs on youtube and download any song as an audio file",
+      technologies: "React Js | Next Js | tailwind css | Node Js | Express Js",
+      link: "https://main--videoconverter10429.netlify.app/",
+      github: "https://github.com/Hassan-AbuGareeb/video-converter-frontend",
     },
     {
       id: 3,
-      title: "RubyCode Blog Project",
+      title: "JorDinner",
       img: IMG2,
-      description: "This site is a kind of social media platform. You can register and share your posts.",
-      technologies: "React | Redux",
-      link: "https://rubycode-blog-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
-    },
-    {
-      id: 4,
-      title: "Startup Landing Page",
-      img: IMG3,
-      description:
-        "A dedicated, standalone web page built for specific campaigns and target audiences.",
-      technologies: "Html | CSS | JavaScript | Next Js",
-      link: "https://alpha-agency-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Alpha-Agency-Project",
-    },
-    {
-      id: 5,
-      title: "Jokes Project with Typescript",
-      img: IMG5,
-      description:
-        "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-      technologies: "Html | Styled-components | Typescript",
-      link: "https://jokes-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Joke-App",
-    },
-    {
-      id: 6,
-      title: "Fs Poster Website",
-      img: IMG6,
-      description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "Html | Scss | Javascript",
-      link: "https://fs-poster-project.vercel.app/",
-      github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
+      description: "Food ordering website that have 2 portals, admin and customer with different capabilites for each",
+      technologies: "React Js | Next Js | tailwind css | Node Js | Express Js | MongoDB",
+      link: "https://capstone-room-6.vercel.app/",
+      github: "https://github.com/202309-EKTA-JO-FSW/capstone-room-6",
     },
   ];
 
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
