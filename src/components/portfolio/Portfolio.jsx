@@ -21,7 +21,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Audio file downloader",
-      img: IMG4,
+      img: IMG2,
       description:
         "A website that enables the user to search for songs on youtube and download any song as an audio file",
       technologies: "React Js | Next Js | tailwind css | Node Js | Express Js",
@@ -31,7 +31,7 @@ const Portfolio = () => {
     {
       id: 3,
       title: "JorDinner",
-      img: IMG2,
+      img: IMG4,
       description: "Food ordering website that have 2 portals, admin and customer with different capabilites for each",
       technologies: "React Js | Next Js | tailwind css | Node Js | Express Js | MongoDB",
       link: "https://capstone-room-6.vercel.app/",
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
 
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (
